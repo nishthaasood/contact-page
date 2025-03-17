@@ -17,21 +17,13 @@ body{
     align-items: left;
     width: 100%;
     padding: 50px 20px;
-    border-radius: 10px;
 }
 
 .contact-us img{
-    align-items: right;
-    justify-content: right;
     width: 40%;
     height: 50%;
     margin-left: 50%;
     margin-right: 0%;
-}
-
-#cont-desc{
-    font-size: 1.2em;
-    color: #FFF8E7;
 }
 
 .contact-us h2{
@@ -42,6 +34,6 @@ body{
 
 .contact-us p {
     font-size: 1.2rem;
-    max-width: 600px;
-    margin: 0;
+    max-width: 400px;
+    color: #FFF8E7
 }
