@@ -12,12 +12,12 @@ body{
 .contact-us{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     width: 100%;
-    z-index: top;
     padding: 20px;
 }
+
 
 #cont-desc{
     font-size: 1.2em;
