@@ -12,28 +12,128 @@ body{
 .contact-us{
     background-color: #0284c7;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     width: 100%;
     padding: 50px 20px;
 }
 
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding; 0;
+}
+
 .contact-us img{
-    width: 40%;
-    height: 50%;
-    margin-left: 50%;
-    margin-right: 0%;
+    width: 25%;
+    height: auto;
+    padding: 0;
+    margin-right: 150px;
 }
 
 .contact-us h2{
-    font-size: 2.5em;
+    font-size: 3rem;
     color: #FFF8E7;
+    margin-bottom: 10px;
 }
 
 
 .contact-us p {
-    font-size: 1.2rem;
-    max-width: 400px;
+    font-size: 1.7rem;
+    max-width: 700px;
     color: #FFF8E7
 }
+
+.location{
+    font-size: 1.5em;
+    font-family:"Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    margin: 0;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.loc-header{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+ 
+.loc-header p{
+    font-size: 1rem;
+    padding: 0;
+    font-weight: 450;
+    margin: 0;
+}
+
+.join-us{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+    padding: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.jointext-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+.jointext-container h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0284c7;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.social-media-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    color: #0284c7;
+    font-weight: bold;
+
+}
+
+.social-media p{
+    font-size: 1rem;
+    margin: 0;
+    font-weight: normal;
+    color: black;
+}
+
+.social-media h5{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    flex-direction: column;
+    color: #0284c7;
+}
+
+.social-media h5 i{
+    color:black;
+    font-size: 1.5rem;
+}
+
