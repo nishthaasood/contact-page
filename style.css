@@ -1,7 +1,29 @@
 body{
-    background-color: #0284c7;
+    background-color: #FFF8E7;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    flex-direction: column;
     display: flex;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: top;
+    padding: 20px;
+}
+
+#cont-desc{
+    font-size: 1.2em;
+    color: #0e1416;
+    margin: 20px;
+}
+
+.contact-us h2{
+    font-size: 1.5em;
+    color: #0284c7;
 }
